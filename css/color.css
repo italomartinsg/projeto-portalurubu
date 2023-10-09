@@ -1,0 +1,17 @@
+:root {
+  --cor-preto: #000;
+  --cor-vermelho: #d2232a;
+  --cor-branco: #fff;
+}
+
+.cor-preto {
+  color: var(--cor-preto);
+}
+
+.cor-vermelho {
+  color: var(--cor-vermelho);
+}
+
+.cor-branco {
+  color: var(--cor-branco);
+}

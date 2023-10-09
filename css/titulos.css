@@ -1,0 +1,88 @@
+.grid-titulos h2 {
+  position: relative;
+  margin: 20px 0px 20px 0px;
+}
+.grid-titulos h2::before {
+  content: "";
+  width: 3px;
+  height: 25px;
+  background: var(--cor-vermelho);
+  position: absolute;
+  left: -5px;
+}
+
+.grid-titulos {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 60px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  padding: 0px 60px;
+}
+
+.titulos-internacionais {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  align-items: center;
+}
+.titulo-conteudo {
+  border: 2px solid #d1cfcf;
+}
+.titulo-conteudo h3 {
+  border-top: 2px solid #d1cfcf;
+  text-align: center;
+  height: 6ch;
+  text-align: center;
+  padding: 20px 0 0 0;
+  background: var(--cor-vermelho);
+  color: #fff;
+}
+
+.titulo-conteudo img {
+  width: 280px;
+  height: 400px;
+  object-fit: cover;
+  margin: auto;
+}
+.titulos-nacionais {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  align-items: center;
+}
+
+.titulos-estaduais {
+  display: flex;
+}
+.titulos-estaduais img {
+  text-align: center;
+}
+.titulos-estaduais h3 {
+  padding: 20px 20px 0 20px;
+  text-align: center;
+}
+
+@media (max-width: 770px) {
+  .grid-titulos {
+    padding: 0px 20px;
+  }
+  .titulos-internacionais {
+    grid-template-columns: auto auto;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 560px) {
+  .titulos-internacionais {
+    grid-template-columns: 1fr;
+  }
+  .titulos-nacionais {
+    grid-template-columns: auto;
+    gap: 10px;
+  }
+  .titulos-estaduais {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}

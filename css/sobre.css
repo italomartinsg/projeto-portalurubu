@@ -1,0 +1,29 @@
+.sobre-conteudo {
+  padding: 0px 60px;
+}
+
+.sobre-conteudo h2 {
+  font-size: 2rem;
+  color: #868686;
+  margin-bottom: 10px;
+}
+
+.sobre-conteudo p {
+  line-height: 1.6;
+  margin-bottom: 60px;
+}
+.sobre-conteudo p:nth-child(4),
+.sobre-conteudo p:nth-child(7) {
+  margin-bottom: 20px;
+}
+
+.sobre-conteudo li {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 880px) {
+  .sobre-conteudo {
+    padding: 0px 20px;
+  }
+}

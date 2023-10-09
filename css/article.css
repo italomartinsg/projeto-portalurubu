@@ -1,0 +1,67 @@
+.article-container {
+  padding: 0 60px 0 60px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.article-container h2 {
+  border-top: 2px solid #c7c7c7;
+
+  text-align: center;
+  padding: 20px 0px;
+}
+.proximos-jogos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0px 60px;
+  justify-content: center;
+}
+.proximos-jogos-conteudo h3 {
+  font-size: 1rem;
+  color: #727272;
+}
+.proximos-jogos-conteudo {
+  display: grid;
+
+  grid-template-columns: auto auto auto;
+  gap: 5px 10px;
+  place-content: center;
+  align-items: center;
+  padding: 0 20px 0 0;
+  border-right: 2px solid #c7c7c7;
+}
+.proximos-jogos-conteudo h3 {
+  grid-column: 1/-1;
+}
+.proximos-jogos-conteudo img {
+  width: 70px;
+  height: 70px;
+}
+
+@media (max-width: 880px) {
+  .article-container {
+    padding: 0 20px;
+  }
+  .article-container h2 {
+    border-top: 2px solid #c7c7c7;
+    text-align: center;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+  }
+  .proximos-jogos {
+    gap: 0px 20px;
+  }
+}
+@media (max-width: 680px) {
+  .article-container h2 {
+    text-align: inherit;
+    padding: 0px;
+  }
+  .proximos-jogos {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+  }
+  .proximos-jogos-conteudo {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

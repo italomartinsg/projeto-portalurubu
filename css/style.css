@@ -1,0 +1,27 @@
+/* GLOBAL CSS */
+@import url("./global.css");
+
+/* COLOR */
+@import "./color.css";
+
+/* HEADER */
+
+@import "./header.css";
+
+/* MAIN */
+@import "./main.css";
+
+/* ARTICLES */
+@import "./article.css";
+
+/*FOOTER */
+@import "./footer.css";
+
+/* PAGINA TITULOS */
+@import "./titulos.css";
+
+/* PAGINA SOBRE */
+@import "./sobre.css";
+
+/*PAGINA NOTICIA */
+@import "./noticia.css";

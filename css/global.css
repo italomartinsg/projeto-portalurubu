@@ -1,0 +1,40 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+div,
+span,
+nav,
+a {
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+}
+* {
+  margin: auto;
+}
