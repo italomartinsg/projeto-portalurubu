@@ -46,7 +46,7 @@ span {
 
 .box-conteudo h2 {
   font-size: 1.8rem;
-  color: #fff;
+  color: var(--cor-branco);
   text-shadow: 0 1px 8px rgba(0, 0, 0, 0.8);
   position: relative;
   top: -150px;
@@ -54,7 +54,7 @@ span {
   padding: 0 20px;
 }
 .box-conteudo p {
-  color: #fff;
+  color: var(--cor-branco);
   font-size: 0.9rem;
   font-weight: 400;
   text-shadow: 0 1px 8px rgba(0, 0, 0, 0.8);
@@ -64,6 +64,12 @@ span {
 }
 
 @media (max-width: 880px) {
+  .grid-conteudo img {
+    transition: none;
+  }
+  .grid-conteudo img:hover {
+    display: none;
+  }
   span {
     font-size: 1.3rem;
     padding: 0 20px;
@@ -79,7 +85,7 @@ span {
   .grid-conteudo {
     grid-template-columns: auto;
     gap: 10px;
-    padding: 0 20px;
+    padding: 0 30px;
   }
   .grid-conteudo img {
     border-radius: 4px;
@@ -95,7 +101,7 @@ span {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .box-conteudo h2 {
     top: -80px;
     font-size: 1.2rem;

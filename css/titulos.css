@@ -36,7 +36,7 @@
   text-align: center;
   padding: 20px 0 0 0;
   background: var(--cor-vermelho);
-  color: #fff;
+  color: var(--cor-branco);
 }
 
 .titulo-conteudo img {

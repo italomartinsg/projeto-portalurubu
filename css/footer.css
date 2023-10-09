@@ -1,5 +1,5 @@
 .footer-bg {
-  background: #000000;
+  background: var(--cor-preto);
 }
 
 .footer {
@@ -10,7 +10,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   padding: 60px 60px;
-  color: #fff;
+  color: var(--cor-branco);
 }
 
 .footer-conteudo h4 {
@@ -35,5 +35,11 @@
   .footer-conteudo p {
     font-size: 0.8rem;
     color: #c5c5c56e;
+  }
+}
+
+@media (max-width: 420px) {
+  footer {
+    min-width: 440px;
   }
 }

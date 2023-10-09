@@ -43,7 +43,9 @@
 @media (max-width: 880px) {
   .noticia-inicial {
     padding: 0 0 0 20px;
-    margin-bottom: 60px;
+  }
+  .noticia-inicial p {
+    font-size: 1.2rem;
   }
   .noticia-completa img {
     text-align: center;
@@ -65,6 +67,10 @@
 }
 
 @media (max-width: 660px) {
+  .noticia-inicial h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
   .video {
     width: 400px;
     height: 200px;
@@ -74,9 +80,20 @@
 }
 
 @media (max-width: 500px) {
-  .video {
-    text-align: inherit;
-    padding: 0 0 0 10px;
+  .noticia-completa img {
+    text-align: start;
+    width: 300px;
+    padding: 0;
+    margin-bottom: 60px;
+    border-radius: 4px;
+  }
+  iframe {
+    text-align: start;
+    padding: 0 20px 0 20px;
+    width: 400px;
+    margin-bottom: 20px;
+    display: inline-block;
+    box-sizing: border-box;
   }
 }
 
@@ -90,6 +107,6 @@
     padding: 0 0 0 0;
   }
   .video {
-    width: 330px;
+    width: 200px;
   }
 }
