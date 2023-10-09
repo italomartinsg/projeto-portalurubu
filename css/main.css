@@ -68,7 +68,8 @@ span {
     transition: none;
   }
   .grid-conteudo img:hover {
-    display: none;
+    -webkit-transform: none;
+    transform: none;
   }
   span {
     font-size: 1.3rem;
